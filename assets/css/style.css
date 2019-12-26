@@ -1,0 +1,31 @@
+.HeaderBox {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  border-bottom: solid;
+  background-color: blue;
+}
+
+.NameBox {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  height: 100%;
+  width: 280px;
+  background-color: #4aaaa5;
+}
+
+h1 {
+  position: absolute;
+  margin: 30px 20px;
+  color: #fff;
+}
+
+.LinksBox {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
