@@ -1,9 +1,8 @@
 .HeaderBox {
-  position: absolute;
+  position: relative;
   height: 100px;
   width: 100%;
   border-bottom: solid;
-  background-color: blue;
 }
 
 .NameBox {
@@ -28,4 +27,20 @@ h1 {
   height: 100px;
   width: 100px;
   background-color: red;
+}
+
+.Background {
+  position: absolute;
+  top: 100px;
+  background-color: seagreen;
+}
+
+.ContentBox {
+  position: relative;
+  top: 50px;
+  left: 25%;
+  width: 50%;
+  border-style: solid;
+  border-color: #dddddd;
+  background-color: sienna;
 }
