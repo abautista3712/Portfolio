@@ -6,17 +6,18 @@
 }
 
 .NameBox {
-  position: absolute;
-  top: 0px;
-  left: 50px;
+  position: relative;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 280px;
   background-color: #4aaaa5;
 }
 
 h1 {
-  position: absolute;
-  margin: 30px 20px;
+  margin: 0;
   color: #fff;
 }
 
@@ -38,8 +39,7 @@ h1 {
 .ContentBox {
   position: relative;
   top: 50px;
-  left: 25%;
-  width: 50%;
+  width: 960px;
   border-style: solid;
   border-color: #dddddd;
   background-color: sienna;
