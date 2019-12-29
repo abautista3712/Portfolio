@@ -62,18 +62,19 @@ a {
   border-left: solid;
   border-right: solid;
   border-color: #f6f6f6;
+  color: #d2d1d2;
 }
 
 .ContactLink {
   float: left;
   text-align: center;
   width: 33%;
+  color: #d2d1d2;
 }
 
 .Background {
-  position: relative;
   top: 0px;
-  height: 80vh;
+  height: 100vh;
   background: url(../images/spikes.png);
 }
 
@@ -104,6 +105,11 @@ h2 {
 }
 
 .StickyFooter {
-  position: relative;
-  bottom: 0px;
+  flex-shrink: 0;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  background-color: #666666;
+  color: #a8ada8;
 }
