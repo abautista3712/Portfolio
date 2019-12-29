@@ -1,6 +1,7 @@
 .CenterHeader {
   position: relative;
   margin: auto;
+  height: 100%;
   width: 960px;
 }
 
@@ -72,15 +73,36 @@ a {
 .Background {
   position: relative;
   top: 0px;
-  background-color: seagreen;
+  background: url(../images/spikes.png);
 }
 
-.ContentBox {
+.ContentWrapper {
   position: relative;
   margin: auto;
   top: 25px;
   width: 960px;
   border-style: solid;
   border-color: #dddddd;
-  background-color: sienna;
+  background-color: #fff;
+  color: #777;
+}
+
+h2 {
+  margin: 0px 20px;
+  padding: 20px 0px;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #e4e4e4;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  color: #4aaaa5;
+}
+
+.ContentBox {
+  padding: 20px 20px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.StickyFooter {
+  position: relative;
+  bottom: 0px;
 }
