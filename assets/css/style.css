@@ -7,7 +7,7 @@
 .HeaderBox {
   position: relative;
   top: 0px;
-  height: 100px;
+  height: 75px;
   width: 100%;
   border-bottom: solid;
   border-color: #cccccc;
@@ -20,27 +20,58 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 280px;
+  width: 350px;
   background-color: #4aaaa5;
 }
 
 h1 {
   margin: 0;
   color: #fff;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #aeaab4;
 }
 
 .LinksBox {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0px;
   right: 0px;
   height: 100%;
-  width: 100px;
-  background-color: red;
+  width: 250px;
+}
+
+.AboutLink {
+  float: left;
+  text-align: center;
+  width: 33%;
+  color: #d2d1d2;
+}
+
+.PortfolioLink {
+  float: left;
+  text-align: center;
+  width: 33%;
+  border-left: solid;
+  border-right: solid;
+  border-color: #f6f6f6;
+}
+
+.ContactLink {
+  float: left;
+  text-align: center;
+  width: 33%;
 }
 
 .Background {
   position: relative;
-  top: 1px;
+  top: 0px;
   background-color: seagreen;
 }
 
