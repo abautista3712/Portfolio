@@ -73,6 +73,7 @@ a {
 .Background {
   position: relative;
   top: 0px;
+  height: 80vh;
   background: url(../images/spikes.png);
 }
 
