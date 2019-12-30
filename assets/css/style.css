@@ -73,15 +73,17 @@ a {
 }
 
 .Background {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   top: 0px;
-  height: 100vh;
   background: url(../images/spikes.png);
 }
 
 .ContentWrapper {
   position: relative;
-  margin: auto;
-  top: 25px;
+  margin: 25px auto;
+  height: min-content;
   width: 960px;
   border-style: solid;
   border-color: #dddddd;
