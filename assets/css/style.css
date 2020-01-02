@@ -118,16 +118,19 @@ p {
 
 .InputName {
   margin: 5px 0px 15px 0px;
+  padding: 5px 0px;
   width: 100%;
 }
 
 .InputEmail {
   margin: 5px 0px 15px 0px;
+  padding: 5px 0px;
   width: 100%;
 }
 
 .InputMessage {
   margin: 5px 0px 15px 0px;
+  padding-bottom: 200px;
   width: 100%;
 }
 
