@@ -131,6 +131,13 @@ p {
   width: 100%;
 }
 
+.InputSubmit {
+  border: none;
+  padding: 10px 30px;
+  background-color: #4aaaa5;
+  color: #fff;
+}
+
 .StickyFooter {
   flex-shrink: 0;
   text-align: center;
