@@ -149,8 +149,8 @@ p {
 
 .HMThumb {
   float: left;
-  background: url(../images/HangmanMTG.jpg);
-  background-size: 40px;
+  background: url(../images/HangmanCB.jpg);
+  background-size: contain;
 }
 
 .RPGThumb {
