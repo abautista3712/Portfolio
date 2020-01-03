@@ -161,6 +161,9 @@ p {
 
 .TriviaThumb {
   float: left;
+  background: url(../images/TriviaTR.jpg);
+  background-size: 275px;
+  background-position: center;
   clear: left;
 }
 
