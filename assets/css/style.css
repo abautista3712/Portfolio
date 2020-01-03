@@ -141,12 +141,19 @@ p {
   color: #fff;
 }
 
-.HMThumb {
+.ThumbSizing {
   position: relative;
-  background: url(../images/HangmanMTG.jpg);
-  background-size: 40px;
   height: 150px;
   width: 200px;
+}
+
+.HMThumb {
+  background: url(../images/HangmanMTG.jpg);
+  background-size: 40px;
+}
+
+.RPGThumb {
+  position: relative;
 }
 
 .Banner {
