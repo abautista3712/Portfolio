@@ -161,10 +161,10 @@ p {
 
 .TriviaThumb {
   float: left;
+  clear: left;
   background: url(../images/TriviaTR.jpg);
   background-size: 275px;
   background-position: center;
-  clear: left;
 }
 
 .RIWThumb {
@@ -176,6 +176,8 @@ p {
 .RPSThumb {
   float: left;
   clear: left;
+  background: url(../images/RPSSP.jpg);
+  background-size: contain;
 }
 
 .Banner {
