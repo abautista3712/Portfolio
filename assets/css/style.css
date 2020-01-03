@@ -169,6 +169,8 @@ p {
 
 .RIWThumb {
   float: left;
+  background: url(../images/RIWC.jpg);
+  background-size: contain;
 }
 
 .RPSThumb {
