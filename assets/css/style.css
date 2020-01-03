@@ -148,12 +148,27 @@ p {
 }
 
 .HMThumb {
+  float: left;
   background: url(../images/HangmanMTG.jpg);
   background-size: 40px;
 }
 
 .RPGThumb {
-  position: relative;
+  float: left;
+}
+
+.TriviaThumb {
+  float: left;
+  clear: left;
+}
+
+.RIWThumb {
+  float: left;
+}
+
+.RPSThumb {
+  float: left;
+  clear: left;
 }
 
 .Banner {
