@@ -2,6 +2,11 @@ body {
   margin: 0px;
 }
 
+#ProfilePic {
+  max-width: 25%;
+  height: auto;
+}
+
 .CenterHeader {
   position: relative;
   margin: auto;
