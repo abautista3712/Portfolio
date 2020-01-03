@@ -141,6 +141,25 @@ p {
   color: #fff;
 }
 
+.HMThumb {
+  position: relative;
+  background: url(../images/HangmanMTG.jpg);
+  background-size: 40px;
+  height: 150px;
+  width: 200px;
+}
+
+.Banner {
+  position: absolute;
+  bottom: 5px;
+  padding: 15px 0px;
+  width: 100%;
+  background-color: #4aaaa5;
+  text-align: center;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  color: #fff;
+}
+
 .StickyFooter {
   flex-shrink: 0;
   text-align: center;
