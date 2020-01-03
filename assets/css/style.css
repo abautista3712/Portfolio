@@ -155,6 +155,8 @@ p {
 
 .RPGThumb {
   float: left;
+  background: url(../images/RPGTTB.jpg);
+  background-size: 68px;
 }
 
 .TriviaThumb {
