@@ -11,8 +11,8 @@ No installation necessary with the exception of a functioning internet browser.
 Accessible via:
 https://abautista3712.github.io/H1_Portfolio/
 
-index.html contains profile picture and biography
-portfolio.html contains project thumbnails (projects not live)
+index.html contains profile picture and biography,
+portfolio.html contains project thumbnails (projects not live),
 contact.html contains form template (not live)
 
 ## Contributing
