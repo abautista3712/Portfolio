@@ -9,7 +9,7 @@ No installation necessary with the exception of a functioning internet browser.
 ## Usage
 
 Accessible via:
-https://abautista3712.github.io/H1_Portfolio/
+https://abautista3712.github.io/Portfolio/
 
 index.html contains profile picture and biography,
 portfolio.html contains project thumbnails (projects not live),
