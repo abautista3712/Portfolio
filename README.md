@@ -1,6 +1,6 @@
-# H1_Portfolio
+# Portfolio
 
-H1_Portfolio is a webpage hosted on GitHub highlighting the web developer Abelard Bautista, their projects, and providing a form by which to contact them by.
+Portfolio is a webpage hosted on GitHub highlighting the web developer Abelard Bautista, their projects, and providing a form by which to contact them by.
 
 ## Installation
 
