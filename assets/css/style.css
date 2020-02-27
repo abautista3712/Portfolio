@@ -37,12 +37,12 @@ body {
 h1 {
   margin: 0;
   color: #fff;
-  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-family: "Rubik";
 }
 
 a {
   text-decoration: none;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Cabin";
   color: #aeaab4;
 }
 
@@ -106,13 +106,13 @@ h2 {
   border-bottom: solid;
   border-width: 2px;
   border-color: #e4e4e4;
-  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-family: "Roboto";
   color: #4aaaa5;
 }
 
 .contentBox {
   padding: 20px;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Cabin";
 }
 
 img {
@@ -209,7 +209,7 @@ p {
   width: 100%;
   background-color: #4aaaa5;
   text-align: center;
-  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-family: "Cabin";
   color: #fff;
 }
 
