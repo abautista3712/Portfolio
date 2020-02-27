@@ -160,7 +160,7 @@ p {
 
 #inOrOut {
   float: left;
-  background: url(../images/inOrOut.png);
+  background: url(../images/inOrOut.PNG);
   background-size: cover;
   background-position: center;
 }
