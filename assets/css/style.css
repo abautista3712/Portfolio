@@ -197,10 +197,10 @@ p {
   background-size: contain;
 }
 
-.Banner {
+.banner {
   position: absolute;
-  bottom: 5px;
-  padding: 15px 0px;
+  bottom: 17px;
+  padding: 10px 0px;
   width: 100%;
   background-color: #4aaaa5;
   text-align: center;
