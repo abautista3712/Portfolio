@@ -169,7 +169,7 @@ p {
   cursor: pointer;
 }
 
-.RPGThumb {
+#weatherNow {
   float: left;
   background: url(../images/RPGTTB.jpg);
   background-size: contain;
