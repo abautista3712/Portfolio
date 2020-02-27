@@ -171,8 +171,8 @@ p {
 
 #weatherNow {
   float: left;
-  background: url(../images/RPGTTB.jpg);
-  background-size: contain;
+  background: url(../images/weatherNow.PNG);
+  background-size: cover;
   background-position: center;
 }
 
