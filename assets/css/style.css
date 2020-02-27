@@ -150,7 +150,12 @@ p {
   color: #fff;
 }
 
-.ThumbSizing {
+#portfolioContentBox {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.thumbSizing {
   position: relative;
   margin-right: 25px;
   margin-bottom: 30px;
