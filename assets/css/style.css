@@ -181,11 +181,11 @@ p {
   background-position: center;
 }
 
-.TriviaThumb {
+#dayPlanner {
   float: left;
-  clear: left;
-  background: url(../images/TriviaTR.jpg);
-  background-size: 275px;
+  border: solid;
+  background: url(../images/dayPlanner.PNG);
+  background-size: cover;
   background-position: center;
 }
 
