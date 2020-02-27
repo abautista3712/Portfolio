@@ -153,12 +153,12 @@ p {
 #portfolioContentBox {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .thumbSizing {
   position: relative;
-  margin-right: 25px;
-  margin-bottom: 30px;
+  margin: 0px 10px 15px 10px;
   height: 180px;
   width: 275px;
 }
