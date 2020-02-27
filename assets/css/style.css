@@ -158,7 +158,7 @@ p {
   width: 200px;
 }
 
-.HMThumb {
+#inOrOut {
   float: left;
   background: url(../images/HangmanCB.jpg);
   background-size: contain;
