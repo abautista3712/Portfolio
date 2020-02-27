@@ -158,15 +158,15 @@ p {
   width: 240px;
 }
 
+.pointerOnHover:hover {
+  cursor: pointer;
+}
+
 #inOrOut {
   float: left;
   background: url(../images/inOrOut.PNG);
   background-size: cover;
   background-position: center;
-}
-
-#inOrOut:hover {
-  cursor: pointer;
 }
 
 #weatherNow {
