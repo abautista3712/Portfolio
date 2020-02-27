@@ -160,8 +160,13 @@ p {
 
 #inOrOut {
   float: left;
-  background: url(../images/HangmanCB.jpg);
-  background-size: contain;
+  background: url(../images/inOrOut.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#inOrOut:hover {
+  cursor: pointer;
 }
 
 .RPGThumb {
