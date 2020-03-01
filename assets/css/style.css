@@ -7,7 +7,8 @@ body {
   height: auto;
 }
 
-.CenterHeader {
+#centerHeader {
+  display: flex;
   position: relative;
   margin: auto;
   height: 100%;
@@ -23,7 +24,7 @@ body {
   border-color: #cccccc;
 }
 
-.NameBox {
+#nameBox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +46,30 @@ a {
   color: #aeaab4;
 }
 
-.LinksBox {
+#socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 32px;
+}
+
+#linkedInIcon {
+  background-image: url(../images/linkedInIcon.PNG);
+}
+
+#gitHubIcon {
+  background-image: url(../images/gitHubIcon.png);
+}
+
+.iconSizing {
+  margin: 8%;
+  height: 32px;
+  width: 32px;
+  background-size: cover;
+}
+
+#linksBox {
   position: absolute;
   display: flex;
   align-items: center;
