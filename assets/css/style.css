@@ -80,19 +80,19 @@ a {
   width: 250px;
 }
 
-.AboutLink {
+#aboutLink {
   float: left;
   text-align: center;
   width: 33%;
   color: #d2d1d2;
 }
 
-.PortfolioLink {
+#portfolioLink {
   float: left;
   text-align: center;
   width: 33%;
   border-left: solid;
-  border-right: solid;
+  /* border-right: solid; */
   border-color: #f6f6f6;
   color: #d2d1d2;
 }
