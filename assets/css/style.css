@@ -15,10 +15,10 @@ body {
   width: 960px;
 }
 
-.HeaderBox {
+#headerBox {
   position: relative;
   top: 0px;
-  height: 75px;
+  height: 15vh;
   width: 100%;
   border-bottom: solid;
   border-color: #cccccc;
