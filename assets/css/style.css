@@ -2,6 +2,12 @@ body {
   margin: 0px;
 }
 
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #ProfilePic {
   max-width: 25%;
   height: auto;
@@ -25,9 +31,6 @@ body {
 }
 
 #nameBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100%;
   width: 350px;
   background-color: #6496c3;
@@ -46,9 +49,6 @@ a {
 }
 
 #socialIcons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-flow: column wrap;
   width: 32px;
 }
@@ -69,10 +69,10 @@ a {
 }
 
 #linksBox {
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   top: 0px;
   right: 0px;
   height: 100%;
