@@ -27,12 +27,20 @@ $("#inOrOut").hover(
   function() {
     $("#banner" + 1).css("top", "0%");
     $("#banner" + 1).css("bottom", "auto");
+    $("#banner" + 1).css("z-index", "1");
+    $("<div>", { id: "descriptionBackground" + 1 })
+      .css("background-color", "#000")
+      .css("height", "100%")
+      .appendTo("#inOrOut");
+    $("#descriptionBackground" + 1).css("opacity", "70%");
+    // $("#inOrOut").text("newDivCreated");
     console.log("hoverInSuccess");
   },
   function() {
     // $("#inOrOut").attr("isHover", "false");
     $("#banner" + 1).css("top", "auto");
     $("#banner" + 1).css("bottom", "10%");
+    $("#descriptionBackground" + 1).remove();
     // $("#bannerIOO").css("top", null);
     console.log("hoverOutSuccess");
   }
