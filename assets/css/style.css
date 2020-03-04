@@ -208,19 +208,6 @@ p {
   background-position: center;
 }
 
-.RIWThumb {
-  float: left;
-  background: url(../images/RIWC.jpg);
-  background-size: contain;
-}
-
-.RPSThumb {
-  float: left;
-  clear: left;
-  background: url(../images/RPSSP.jpg);
-  background-size: contain;
-}
-
 .banner {
   position: absolute;
   bottom: 10%;
