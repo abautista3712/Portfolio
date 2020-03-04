@@ -190,21 +190,18 @@ p {
 }
 
 #inOrOut {
-  float: left;
   background: url(../images/inOrOut.PNG);
   background-size: cover;
   background-position: center;
 }
 
 #weatherNow {
-  float: left;
   background: url(../images/weatherNow.PNG);
   background-size: cover;
   background-position: center;
 }
 
 #dayPlanner {
-  float: left;
   border: solid;
   background: url(../images/dayPlanner.PNG);
   background-size: cover;
@@ -226,7 +223,7 @@ p {
 
 .banner {
   position: absolute;
-  bottom: 17px;
+  bottom: 10%;
   padding: 10px 0px;
   width: 100%;
   background-color: #6496c3;
