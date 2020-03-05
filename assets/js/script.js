@@ -28,20 +28,22 @@ $("#inOrOut").hover(
     $("#banner" + 1).css("top", "0%");
     $("#banner" + 1).css("bottom", "auto");
     $("#banner" + 1).css("z-index", "1");
-    $("<div>", { id: "descriptionBackground" + 1 })
-      .css("background-color", "#000")
+    $("<div>", { id: "descriptionBackground" + 1, class: "flexCenter" })
+      .css("padding", "0px 10%")
       .css("height", "100%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text(
+        "An interactive web application designed to help a user decide between eating in or eating out."
+      )
       .appendTo("#inOrOut");
-    $("#descriptionBackground" + 1).css("opacity", "70%");
-    // $("#inOrOut").text("newDivCreated");
+    $("#descriptionBackground" + 1);
     console.log("hoverInSuccess");
   },
   function() {
-    // $("#inOrOut").attr("isHover", "false");
     $("#banner" + 1).css("top", "auto");
     $("#banner" + 1).css("bottom", "10%");
     $("#descriptionBackground" + 1).remove();
-    // $("#bannerIOO").css("top", null);
     console.log("hoverOutSuccess");
   }
 );
@@ -50,13 +52,23 @@ $("#weatherNow").hover(
   function() {
     $("#banner" + 2).css("top", "0%");
     $("#banner" + 2).css("bottom", "auto");
+    $("#banner" + 2).css("z-index", "1");
+    $("<div>", { id: "descriptionBackground" + 2, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "100%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text(
+        "A web application that provides the weather conditions for a user-chosen city."
+      )
+      .appendTo("#weatherNow");
+    $("#descriptionBackground" + 2);
     console.log("hoverInSuccess");
   },
   function() {
-    // $("#inOrOut").attr("isHover", "false");
     $("#banner" + 2).css("top", "auto");
     $("#banner" + 2).css("bottom", "10%");
-    // $("#bannerIOO").css("top", null);
+    $("#descriptionBackground" + 2).remove();
     console.log("hoverOutSuccess");
   }
 );
@@ -65,13 +77,23 @@ $("#dayPlanner").hover(
   function() {
     $("#banner" + 3).css("top", "0%");
     $("#banner" + 3).css("bottom", "auto");
+    $("#banner" + 3).css("z-index", "1");
+    $("<div>", { id: "descriptionBackground" + 3, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "100%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text(
+        "An editable web application capable of recording the user's schedule by the hour."
+      )
+      .appendTo("#dayPlanner");
+    $("#descriptionBackground" + 3);
     console.log("hoverInSuccess");
   },
   function() {
-    // $("#inOrOut").attr("isHover", "false");
     $("#banner" + 3).css("top", "auto");
     $("#banner" + 3).css("bottom", "10%");
-    // $("#bannerIOO").css("top", null);
+    $("#descriptionBackground" + 3).remove();
     console.log("hoverOutSuccess");
   }
 );
