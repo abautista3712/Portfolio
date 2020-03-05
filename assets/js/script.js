@@ -40,6 +40,8 @@ $("#inOrOut").hover(
     $("#descriptionBackground" + 1);
     $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
+      .css("border-top", "solid white")
+      .css("border-bottom", "solid white")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
@@ -85,6 +87,8 @@ $("#weatherNow").hover(
     $("#descriptionBackground" + 2);
     $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
+      .css("border-top", "solid white")
+      .css("border-bottom", "solid white")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
@@ -137,6 +141,8 @@ $("#dayPlanner").hover(
     $("#descriptionBackground" + 3);
     $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
+      .css("border-top", "solid white")
+      .css("border-bottom", "solid white")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
