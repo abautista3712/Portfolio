@@ -38,13 +38,16 @@ $("#inOrOut").hover(
       )
       .appendTo("#inOrOut");
     $("#descriptionBackground" + 1);
-    $("<div>", { id: "demoLink" + 1, class: "flexCenter" })
+    $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text("Demo")
       .appendTo("#inOrOut");
+    $("#demoLink").on("click", function() {
+      window.open("https://abautista3712.github.io/In-or-Out/", "_blank");
+    });
     $("<div>", { id: "gitHubRepo" + 1, class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
@@ -52,15 +55,16 @@ $("#inOrOut").hover(
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#inOrOut");
-    console.log("hoverInSuccess");
+    $("#gitHubRepo" + 1).on("click", function() {
+      window.open("https://github.com/abautista3712/In-or-Out", "_blank");
+    });
   },
   function() {
     $("#banner" + 1).css("top", "auto");
     $("#banner" + 1).css("bottom", "10%");
     $("#descriptionBackground" + 1).remove();
-    $("#demoLink" + 1).remove();
+    $("#demoLink").remove();
     $("#gitHubRepo" + 1).remove();
-    console.log("hoverOutSuccess");
   }
 );
 
@@ -79,13 +83,19 @@ $("#weatherNow").hover(
       )
       .appendTo("#weatherNow");
     $("#descriptionBackground" + 2);
-    $("<div>", { id: "demoLink" + 2, class: "flexCenter" })
+    $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text("Demo")
       .appendTo("#weatherNow");
+    $("#demoLink").on("click", function() {
+      window.open(
+        "https://abautista3712.github.io/WeatherDashboard/",
+        "_blank"
+      );
+    });
     $("<div>", { id: "gitHubRepo" + 2, class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
@@ -93,13 +103,18 @@ $("#weatherNow").hover(
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#weatherNow");
-    console.log("hoverInSuccess");
+    $("#gitHubRepo" + 2).on("click", function() {
+      window.open(
+        "https://github.com/abautista3712/WeatherDashboard",
+        "_blank"
+      );
+    });
   },
   function() {
     $("#banner" + 2).css("top", "auto");
     $("#banner" + 2).css("bottom", "10%");
     $("#descriptionBackground" + 2).remove();
-    $("#demoLink" + 2).remove();
+    $("#demoLink").remove();
     $("#gitHubRepo" + 2).remove();
     console.log("hoverOutSuccess");
   }
@@ -120,13 +135,16 @@ $("#dayPlanner").hover(
       )
       .appendTo("#dayPlanner");
     $("#descriptionBackground" + 3);
-    $("<div>", { id: "demoLink" + 3, class: "flexCenter" })
+    $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text("Demo")
       .appendTo("#dayPlanner");
+    $("#demoLink").on("click", function() {
+      window.open("https://abautista3712.github.io/DayPlanner/", "_blank");
+    });
     $("<div>", { id: "gitHubRepo" + 3, class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
@@ -134,15 +152,16 @@ $("#dayPlanner").hover(
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#dayPlanner");
-    console.log("hoverInSuccess");
+    $("#gitHubRepo" + 3).on("click", function() {
+      window.open("https://github.com/abautista3712/DayPlanner", "_blank");
+    });
   },
   function() {
     $("#banner" + 3).css("top", "auto");
     $("#banner" + 3).css("bottom", "10%");
     $("#descriptionBackground" + 3).remove();
-    $("#demoLink" + 3).remove();
+    $("#demoLink").remove();
     $("#gitHubRepo" + 3).remove();
-    console.log("hoverOutSuccess");
   }
 );
 
