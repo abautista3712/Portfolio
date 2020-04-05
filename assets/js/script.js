@@ -1,9 +1,9 @@
 // On-click function for LinkedIn and GitHub
-$("#linkedInIcon").on("click", function() {
+$("#linkedInIcon").on("click", function () {
   window.open("https://www.linkedin.com/in/abelard-bautista", "_blank");
 });
 
-$("#gitHubIcon").on("click", function() {
+$("#gitHubIcon").on("click", function () {
   window.open("https://www.github.com/abautista3712", "_blank");
 });
 
@@ -24,7 +24,7 @@ $("#gitHubIcon").on("click", function() {
 
 // function changeBannerPosition(order) {
 $("#inOrOut").hover(
-  function() {
+  function () {
     $("#banner" + 1).css("top", "0%");
     $("#banner" + 1).css("bottom", "auto");
     $("#banner" + 1).css("z-index", "1");
@@ -47,7 +47,7 @@ $("#inOrOut").hover(
       .css("color", "#fff")
       .text("Demo")
       .appendTo("#inOrOut");
-    $("#demoLink").on("click", function() {
+    $("#demoLink").on("click", function () {
       window.open("https://abautista3712.github.io/In-or-Out/", "_blank");
     });
     $("<div>", { id: "gitHubRepo" + 1, class: "flexCenter" })
@@ -57,11 +57,11 @@ $("#inOrOut").hover(
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#inOrOut");
-    $("#gitHubRepo" + 1).on("click", function() {
+    $("#gitHubRepo" + 1).on("click", function () {
       window.open("https://github.com/abautista3712/In-or-Out", "_blank");
     });
   },
-  function() {
+  function () {
     $("#banner" + 1).css("top", "auto");
     $("#banner" + 1).css("bottom", "10%");
     $("#descriptionBackground" + 1).remove();
@@ -71,7 +71,7 @@ $("#inOrOut").hover(
 );
 
 $("#weatherNow").hover(
-  function() {
+  function () {
     $("#banner" + 2).css("top", "0%");
     $("#banner" + 2).css("bottom", "auto");
     $("#banner" + 2).css("z-index", "1");
@@ -94,7 +94,7 @@ $("#weatherNow").hover(
       .css("color", "#fff")
       .text("Demo")
       .appendTo("#weatherNow");
-    $("#demoLink").on("click", function() {
+    $("#demoLink").on("click", function () {
       window.open(
         "https://abautista3712.github.io/WeatherDashboard/",
         "_blank"
@@ -107,25 +107,24 @@ $("#weatherNow").hover(
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#weatherNow");
-    $("#gitHubRepo" + 2).on("click", function() {
+    $("#gitHubRepo" + 2).on("click", function () {
       window.open(
         "https://github.com/abautista3712/WeatherDashboard",
         "_blank"
       );
     });
   },
-  function() {
+  function () {
     $("#banner" + 2).css("top", "auto");
     $("#banner" + 2).css("bottom", "10%");
     $("#descriptionBackground" + 2).remove();
     $("#demoLink").remove();
     $("#gitHubRepo" + 2).remove();
-    console.log("hoverOutSuccess");
   }
 );
 
 $("#dayPlanner").hover(
-  function() {
+  function () {
     $("#banner" + 3).css("top", "0%");
     $("#banner" + 3).css("bottom", "auto");
     $("#banner" + 3).css("z-index", "1");
@@ -148,7 +147,7 @@ $("#dayPlanner").hover(
       .css("color", "#fff")
       .text("Demo")
       .appendTo("#dayPlanner");
-    $("#demoLink").on("click", function() {
+    $("#demoLink").on("click", function () {
       window.open("https://abautista3712.github.io/DayPlanner/", "_blank");
     });
     $("<div>", { id: "gitHubRepo" + 3, class: "flexCenter" })
@@ -158,16 +157,66 @@ $("#dayPlanner").hover(
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#dayPlanner");
-    $("#gitHubRepo" + 3).on("click", function() {
+    $("#gitHubRepo" + 3).on("click", function () {
       window.open("https://github.com/abautista3712/DayPlanner", "_blank");
     });
   },
-  function() {
+  function () {
     $("#banner" + 3).css("top", "auto");
     $("#banner" + 3).css("bottom", "10%");
     $("#descriptionBackground" + 3).remove();
     $("#demoLink").remove();
     $("#gitHubRepo" + 3).remove();
+  }
+);
+
+$("#eatDaBurger").hover(
+  function () {
+    $("#banner" + 4).css("top", "0%");
+    $("#banner" + 4).css("bottom", "auto");
+    $("#banner" + 4).css("z-index", "1");
+    $("<div>", { id: "descriptionBackground" + 4, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "80%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text(
+        "A program utilizing mySQL and node express-handlebars to keep track of burgers."
+      )
+      .appendTo("#eatDaBurger");
+    $("#descriptionBackground" + 4);
+    $("<div>", { id: "demoLink", class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("border-top", "solid white")
+      .css("border-bottom", "solid white")
+      .css("height", "10%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text("Demo")
+      .appendTo("#eatDaBurger");
+    $("#demoLink").on("click", function () {
+      window.open("https://mysterious-wildwood-12100.herokuapp.com/", "_blank");
+    });
+    $("<div>", { id: "gitHubRepo" + 4, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "10%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text("GitHub Repository")
+      .appendTo("#eatDaBurger");
+    $("#gitHubRepo" + 4).on("click", function () {
+      window.open(
+        "https://github.com/abautista3712/nodeExpressHandlebars",
+        "_blank"
+      );
+    });
+  },
+  function () {
+    $("#banner" + 4).css("top", "auto");
+    $("#banner" + 4).css("bottom", "10%");
+    $("#descriptionBackground" + 4).remove();
+    $("#demoLink").remove();
+    $("#gitHubRepo" + 4).remove();
   }
 );
 
