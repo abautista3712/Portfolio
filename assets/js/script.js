@@ -220,6 +220,53 @@ $("#eatDaBurger").hover(
   }
 );
 
+$("#covid19Tracker").hover(
+  function () {
+    $("#banner" + 5).css("top", "0%");
+    $("#banner" + 5).css("bottom", "auto");
+    $("#banner" + 5).css("z-index", "1");
+    $("<div>", { id: "descriptionBackground" + 5, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "80%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text("Data tracker of Covid-19 global cases visualized via heatmap.")
+      .appendTo("#covid19Tracker");
+    $("#descriptionBackground" + 5);
+    $("<div>", { id: "demoLink", class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("border-top", "solid white")
+      .css("border-bottom", "solid white")
+      .css("height", "10%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text("Demo")
+      .appendTo("#covid19Tracker");
+    $("#demoLink").on("click", function () {
+      window.open("http://plague.site/", "_blank");
+    });
+    $("<div>", { id: "gitHubRepo" + 5, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "10%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text("GitHub Repository")
+      .appendTo("#covid19Tracker");
+    $("#gitHubRepo" + 5).on("click", function () {
+      window.open(
+        "https://github.com/yankidank/covid-19-tracker/commits/master",
+        "_blank"
+      );
+    });
+  },
+  function () {
+    $("#banner" + 5).css("top", "auto");
+    $("#banner" + 5).css("bottom", "10%");
+    $("#descriptionBackground" + 5).remove();
+    $("#demoLink").remove();
+    $("#gitHubRepo" + 5).remove();
+  }
+);
 // $("#weatherNow").hover(
 //   function() {
 //     $("#banner" + 2).css("top", "0%");
