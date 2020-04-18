@@ -215,6 +215,13 @@ p {
   background-position: center;
 }
 
+#dayPlanner {
+  border: solid;
+  background: url(../images/noteTaker.PNG);
+  background-size: cover;
+  background-position: center;
+}
+
 #covid19Tracker {
   border: solid;
   background: url(../images/covid19Tracker.PNG);
