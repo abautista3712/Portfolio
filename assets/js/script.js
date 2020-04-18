@@ -170,7 +170,7 @@ $("#dayPlanner").hover(
   }
 );
 
-$("#eatDaBurger").hover(
+$("#noteTaker").hover(
   function () {
     $("#banner" + 4).css("top", "0%");
     $("#banner" + 4).css("bottom", "auto");
@@ -181,10 +181,57 @@ $("#eatDaBurger").hover(
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text(
-        "A program utilizing mySQL and node express-handlebars to keep track of burgers."
+        "A program that allows the user to read, write, and delete notes utilizing a node.js express server backend."
+      )
+      .appendTo("#noteTaker");
+    $("#descriptionBackground" + 4);
+    $("<div>", { id: "demoLink", class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("border-top", "solid white")
+      .css("border-bottom", "solid white")
+      .css("height", "10%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text("Demo")
+      .appendTo("#noteTaker");
+    $("#demoLink").on("click", function () {
+      window.open("https://stormy-wildwood-71353.herokuapp.com/", "_blank");
+    });
+    $("<div>", { id: "gitHubRepo" + 4, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "10%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text("GitHub Repository")
+      .appendTo("#eatDaBurger");
+    $("#gitHubRepo" + 4).on("click", function () {
+      window.open("https://github.com/abautista3712/noteTaker", "_blank");
+    });
+  },
+  function () {
+    $("#banner" + 4).css("top", "auto");
+    $("#banner" + 4).css("bottom", "10%");
+    $("#descriptionBackground" + 4).remove();
+    $("#demoLink").remove();
+    $("#gitHubRepo" + 4).remove();
+  }
+);
+
+$("#eatDaBurger").hover(
+  function () {
+    $("#banner" + 5).css("top", "0%");
+    $("#banner" + 5).css("bottom", "auto");
+    $("#banner" + 5).css("z-index", "1");
+    $("<div>", { id: "descriptionBackground" + 5, class: "flexCenter" })
+      .css("padding", "0px 10%")
+      .css("height", "80%")
+      .css("background", "rgba(0,0,0,0.8)")
+      .css("color", "#fff")
+      .text(
+        "A program utilizing mySQL and node express-handlebars to keep track of a list of burgers."
       )
       .appendTo("#eatDaBurger");
-    $("#descriptionBackground" + 4);
+    $("#descriptionBackground" + 5);
     $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("border-top", "solid white")
@@ -197,14 +244,14 @@ $("#eatDaBurger").hover(
     $("#demoLink").on("click", function () {
       window.open("https://mysterious-wildwood-12100.herokuapp.com/", "_blank");
     });
-    $("<div>", { id: "gitHubRepo" + 4, class: "flexCenter" })
+    $("<div>", { id: "gitHubRepo" + 5, class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#eatDaBurger");
-    $("#gitHubRepo" + 4).on("click", function () {
+    $("#gitHubRepo" + 5).on("click", function () {
       window.open(
         "https://github.com/abautista3712/nodeExpressHandlebars",
         "_blank"
@@ -212,27 +259,27 @@ $("#eatDaBurger").hover(
     });
   },
   function () {
-    $("#banner" + 4).css("top", "auto");
-    $("#banner" + 4).css("bottom", "10%");
-    $("#descriptionBackground" + 4).remove();
+    $("#banner" + 5).css("top", "auto");
+    $("#banner" + 5).css("bottom", "10%");
+    $("#descriptionBackground" + 5).remove();
     $("#demoLink").remove();
-    $("#gitHubRepo" + 4).remove();
+    $("#gitHubRepo" + 5).remove();
   }
 );
 
 $("#covid19Tracker").hover(
   function () {
-    $("#banner" + 5).css("top", "0%");
-    $("#banner" + 5).css("bottom", "auto");
-    $("#banner" + 5).css("z-index", "1");
-    $("<div>", { id: "descriptionBackground" + 5, class: "flexCenter" })
+    $("#banner" + 6).css("top", "0%");
+    $("#banner" + 6).css("bottom", "auto");
+    $("#banner" + 6).css("z-index", "1");
+    $("<div>", { id: "descriptionBackground" + 6, class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "80%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text("Data tracker of Covid-19 global cases visualized via heatmap.")
       .appendTo("#covid19Tracker");
-    $("#descriptionBackground" + 5);
+    $("#descriptionBackground" + 6);
     $("<div>", { id: "demoLink", class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("border-top", "solid white")
@@ -245,14 +292,14 @@ $("#covid19Tracker").hover(
     $("#demoLink").on("click", function () {
       window.open("http://plague.site/", "_blank");
     });
-    $("<div>", { id: "gitHubRepo" + 5, class: "flexCenter" })
+    $("<div>", { id: "gitHubRepo" + 6, class: "flexCenter" })
       .css("padding", "0px 10%")
       .css("height", "10%")
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text("GitHub Repository")
       .appendTo("#covid19Tracker");
-    $("#gitHubRepo" + 5).on("click", function () {
+    $("#gitHubRepo" + 6).on("click", function () {
       window.open(
         "https://github.com/yankidank/covid-19-tracker/commits/master",
         "_blank"
@@ -260,11 +307,11 @@ $("#covid19Tracker").hover(
     });
   },
   function () {
-    $("#banner" + 5).css("top", "auto");
-    $("#banner" + 5).css("bottom", "10%");
-    $("#descriptionBackground" + 5).remove();
+    $("#banner" + 6).css("top", "auto");
+    $("#banner" + 6).css("bottom", "10%");
+    $("#descriptionBackground" + 6).remove();
     $("#demoLink").remove();
-    $("#gitHubRepo" + 5).remove();
+    $("#gitHubRepo" + 6).remove();
   }
 );
 // $("#weatherNow").hover(
