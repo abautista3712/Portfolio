@@ -181,7 +181,7 @@ $("#noteTaker").hover(
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text(
-        "A program that allows the user to read, write, and delete notes utilizing a node.js express server backend."
+        "A program utilizing a node.js express server for the user to read, write, and delete notes."
       )
       .appendTo("#noteTaker");
     $("#descriptionBackground" + 4);
@@ -203,7 +203,7 @@ $("#noteTaker").hover(
       .css("background", "rgba(0,0,0,0.8)")
       .css("color", "#fff")
       .text("GitHub Repository")
-      .appendTo("#eatDaBurger");
+      .appendTo("#noteTaker");
     $("#gitHubRepo" + 4).on("click", function () {
       window.open("https://github.com/abautista3712/noteTaker", "_blank");
     });
