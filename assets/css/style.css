@@ -215,6 +215,13 @@ p {
   background-position: center;
 }
 
+#covid19Tracker {
+  border: solid;
+  background: url(../images/covid19Tracker.PNG);
+  background-size: cover;
+  background-position: center;
+}
+
 .banner {
   position: absolute;
   bottom: 10%;
